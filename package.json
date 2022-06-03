@@ -1,0 +1,35 @@
+{
+  "name": "midi2audio-js",
+  "version": "1.0.0",
+  "main": "synth.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pioug/MidiConvert": "^3.0.0-beta.9",
+    "axios": "^0.27.2",
+    "buffer": "^5.7.1",
+    "cloudinary": "^1.30.0",
+    "cross-blob": "^3.0.1",
+    "dotenv": "^16.0.1",
+    "dropbox-v2-api": "^2.5.3",
+    "express": "^4.18.1",
+    "jsmidgen": "^0.1.5",
+    "json-midi-encoder": "^5.1.4",
+    "lodash": "^4.17.21",
+    "midi-writer-js": "^2.1.0",
+    "midiconvert": "^0.4.7",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.3.3",
+    "node-cron": "^3.0.0",
+    "scribbletune": "^5.0.0-alpha.2",
+    "soundfont2": "^0.3.0",
+    "streamifier": "^0.1.1",
+    "synth-js": "^0.1.2"
+  }
+}
