@@ -36,18 +36,9 @@ export async function everyDay() {
   var endTime = new Date(
     new Date().getTime() - 24 * 60 * 60 * 1000 + 24 * 60 * 60 * 1000
   );
-  //startTime to timesdtamp
+
   startTime = startTime.getTime() / 1000;
   endTime = endTime.getTime() / 1000;
-  // startTime = threeDaysAgoStartTime / 1000;
-  // endTime = threeDaysAgoEndTime / 1000;
-
-  // console.log(startTime);
-  // console.log(endTime);
-  // console.log(data[16900].time);
-  // startTime = 1651960800;
-  // endTime = 1651874400.0
-
   for (let i = 0; i < data.length; i++) {
     //check if time is between start and end time
     // console.log(startTime, data[i].time, endTime);
